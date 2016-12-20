@@ -38,6 +38,7 @@ int main(char* argv, int argc)
 	 * Function to allocate memory :
 	 * ptr = malloc(size) : ptr is a pointer to an allocated chunk of size "size"
 	 * ptr = calloc(size,1) : same but memory is set to zero
+	 * new_ptr = realloc(old_ptr,new_size) : reallocate the content of old_ptr into new_ptr with an updated size (truncate if lower to old_ptr size)
 	 * free(ptr) : the memory allocated at ptr is freed (unallocated)
 	 *
 	 * There are other functions that allocate memory :
