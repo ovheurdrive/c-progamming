@@ -11,12 +11,12 @@
 int main( char* argv, int argc)
 {
 	printf("%d\n",ADD(3,4));
-	return 0;
+	return SUCCESS;
 }
 #else
 int main( char* argv, int argc)
 {
 	printf("error of macro definition\n");
-	return 0;
+	return ERROR;
 }
 #endif
