@@ -9,16 +9,25 @@ Short programs to learn how c works :
 The "Courses" are to be taken in a specific order : some in Basics need the understanding of the Basics of Pointers
 The recommended order is the following
 
-1. Basics/TypesAndOperators
-2. Basics/Functions
-3. Basics/IO (First Part)
-4. PointersAndMemory/PointerBasics
-5. Basics/Preprocessor
-6. Basics/StringsAndArrays
-7. PointersAndMemory/IntroductionToProcessVirtualMemory
-8. PointersAndMemory/MemAlloc
-9. PointersAndMemory/ChainedLists
+* Basics/TypesAndOperators
+* Basics/ConditionsAndLoops
+* Basics/Functions
+* Basics/IO (First Part)
+* Basics/HeadersAndMultipleSourceFiles
+* PointersAndMemory/PointerBasics
+* Basics/Preprocessor
+* Basics/StringsAndArrays
+* Basics/IO (Second Part)
+* PointersAndMemory/IntroductionToProcessVirtualMemory
+* PointersAndMemory/MemAlloc
+* PointersAndMemory/ChainedLists
 
+There are some exercises yoou can do to practice a specific part but i recommend to read all the courses before starting exercise 2.
+* Exercise 1 : Basics I/O, Functions, Multiple files, etc...
+* Exercise 2 : String handling
+* Exercise 3 : Preprocessor 
+* Exercise 4 : Playin' with pointers
+* Exercise 5 : Memory Allocation
 
 Requirements : 
 * A basic knowledge of the C language syntax
