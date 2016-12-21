@@ -3,7 +3,8 @@ C progamming repository
 
 Short programs to learn how c works :
 
-* Standard Library and I/O functions.
+* Standard Library and I/O.
+* Basic syntax of the language : conditions, loops, types, operators, functions, etc...
 * Pointers :  Basics / Memory Allocation.
 
 The "Courses" are to be taken in a specific order : some in Basics need the understanding of the Basics of Pointers
