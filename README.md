@@ -6,7 +6,7 @@ Short programs to learn how c works :
 * Standard Library and I/O functions.
 * Pointers :  Basics / Memory Allocation.
 
-The "Courses" are to be taken in a specific order : some in Basics need the understanding of le Basics of Pointers
+The "Courses" are to be taken in a specific order : some in Basics need the understanding of the Basics of Pointers
 The recommended order is the following
 
 1. Basics/Types
