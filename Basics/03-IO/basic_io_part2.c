@@ -20,14 +20,10 @@ int file_open(const char* filename)
 	}
 	return 0;
 }
+
 int main(int argc, char* argv[])
 {
-	int a;
-	scanf("%d", &a); // permet de prendre la valeur de a dans l'entrée standard (stdin) de manière formatée
-	printf("%d\n", a); // affiche la valeur de a dans la sortie standard (stdout) de manière formatée
-	
 	file_open("file_to_open.txt");
-	
 	return 0;
-
 }
+
