@@ -14,7 +14,7 @@ The recommended order is the following
 3. Basics/IO (First Part)
 4. PointersAndMemory/PointerBasics
 5. Basics/Preprocessor
-6. Basics/StringsAndTables
+6. Basics/StringsAndArrays
 7. PointersAndMemory/IntroductionToProcessVirtualMemory
 8. PointersAndMemory/MemAlloc
 9. PointersAndMemory/ChainedLists
