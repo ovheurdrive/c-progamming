@@ -9,7 +9,7 @@ Short programs to learn how c works :
 The "Courses" are to be taken in a specific order : some in Basics need the understanding of the Basics of Pointers
 The recommended order is the following
 
-1. Basics/Types
+1. Basics/TypesAndOpeators
 2. Basics/Functions
 3. Basics/IO (First Part)
 4. PointersAndMemory/PointerBasics
