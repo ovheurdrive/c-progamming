@@ -27,10 +27,15 @@ There are some exercises yoou can do to practice a specific part but i recommend
 * Exercise 2 : String handling
 * Exercise 3 : Preprocessor 
 * Exercise 4 : Playin' with pointers
-* Exercise 5 : Memory Allocation
+* Exercise 5 : Memory Allocation (Not written yet)
 
 Requirements : 
 * A basic knowledge of the C language syntax
 * GIT interface : Babun/Cygwin, git on Linux/Mac
 * C/C++ IDE : CodeBlocks, Visual Studio, VIM/EMACS
 * Debugger : OllyDBG , Immunity Debugger , GDB
+
+
+All those source codes aren't perfect (they leak, variables names are shit) but it's in the purpose of learning assisted orally by someone who knows what he is talking about.
+Every file is subject to further improvements/alterations, but remember that it isn't perfect at all.
+If you're interested in contributing, you'll be welcomed cheerfully.
