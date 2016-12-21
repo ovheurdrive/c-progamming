@@ -8,13 +8,13 @@
 #define ADD(x,y) ((x) + (y)) //define a macro
 
 #ifdef ADD
-int main( char* argv, int argc)
+int main( int argc, char* argv[])
 {
 	printf("%d\n",ADD(3,4));
 	return SUCCESS;
 }
 #else
-int main( char* argv, int argc)
+int main( int argc, char* argv[])
 {
 	printf("error of macro definition\n");
 	return ERROR;

@@ -30,7 +30,7 @@ int empty(table_t* table)
     return SUCCESS;
 }
 
-int main(char* argv, int argc)
+int main(int argc, char* argv[])
 {
     table_t* table = NULL;
     table = calloc(sizeof(*table),1); // calloc = allocate mémory and set it to 0

@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int main( char* argv, int argc)
+int main( int argc, char* argv[])
 {
     /*
      *  First, we have to ask ourselves, what is a string?

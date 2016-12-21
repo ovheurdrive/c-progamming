@@ -14,7 +14,7 @@
  * is executed by default when we run the code after compiling it.
  */
 
-int main( char* argv, int argc)
+int main( int argc, char* argv[])
 {
 	printf("Hello World!");
 	return 0;

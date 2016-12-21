@@ -20,7 +20,7 @@ int file_open(const char* filename)
 	}
 	return 0;
 }
-int main(char* argv, int argc)
+int main(int argc, char* argv[])
 {
 	int a;
 	scanf("%d", &a); // permet de prendre la valeur de a dans l'entrée standard (stdin) de manière formatée

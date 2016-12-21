@@ -12,7 +12,7 @@ typedef struct list_t
 }list_t;
 
 
-int main( char* argv, int argc)
+int main( int argc, char* argv[])
 {
 	list_t* p_list = malloc(sizeof(*p_list));
 	list_t* p_current = p_list;

@@ -12,7 +12,7 @@ int* pointerFunction(int* u)
     *u = 2*(*u);
     return 0;
 } 
-int main(char* argv, int argc)
+int main(int argc, char* argv[])
 {
     int* p_i;
     *p_i = 1;
