@@ -6,7 +6,7 @@
 (  ) // parenthesis
 () [] . -> // call, index, struct member, struct pointer on member
 
-// Unary Operators
+// Unary Operators ( takes one argument )
 
 ! // boolean negate
 ~ // binary negate
@@ -16,7 +16,6 @@
 * // dereferencing
 & // referencing
 sizeof // return the size of a variable
-
 
 
 // Binary Operators
@@ -37,3 +36,6 @@ sizeof // return the size of a variable
 // Ternary Operators
 
 ? : // if ... then ... else
+// Example :
+
+x < y ? return x : return y; // min between x and y 

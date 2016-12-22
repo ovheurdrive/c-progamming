@@ -8,3 +8,9 @@ int main(int argc, char* argv[])
 	printf("%d\n", a); // affiche la valeur de a dans la sortie standard (stdout) de manière formatée
 	return 0;
 }
+
+/*
+ * There exists other standard basics I/O functions based on the same principle :
+ * sprintf, snprintf, asprintf, vasprintf, vprintf, vsprinf, fprintf, vfprintf. 	
+ * sscanf, fscanf , getchar, gets, putchar, puts.
+ */

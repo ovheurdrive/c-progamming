@@ -14,6 +14,12 @@ int max(int a, int b)
 
 int main( int argc, char* argv[])
 {
-	int(*functionPtr)(int,int) = &max;
+	/*
+	 * To declare a Function Pointer, you do the following :
+	 * let's assume the prototype of the function we want to point is  int myFunction( int a, char* b)
+	 *
+	 * To declare the pointer we do : int(*myPtr)(int,char*)
+	 */
+	int(*functionPtr)(int,int) = &max; 
 	printf("The max is %d\n", functionPtr(3,5));
 }

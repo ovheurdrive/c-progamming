@@ -7,6 +7,7 @@
 
 #define ADD(x,y) ((x) + (y)) //define a macro
 
+// If we comment the line defining the macro ADD, this will compile the second chunk of code
 #ifdef ADD
 int main( int argc, char* argv[])
 {

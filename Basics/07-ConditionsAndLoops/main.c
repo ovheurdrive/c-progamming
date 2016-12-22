@@ -7,7 +7,7 @@ int main( int argc, char* argv[])
 	printf("Write a number between 1 and 5 :");
 	scanf("%d",&choice);
 
-	switch(choice)
+	switch(choice) //Switch case, works only with integer conditions
 	{
 		case 1: printf("you chose the number one\n");
 		break;
@@ -28,24 +28,30 @@ int main( int argc, char* argv[])
 		break;
 	}
 
-	if( 1 <= 2 )
-		printf("OMG 1 is inferior to two O_Oi\n");
+	// For every following expression if the content is on line long, we can delete the braces '{' and '}'
 
+	if( 1 <= 2 ) //basic condition
+	{
+		printf("OMG 1 is inferior to two O_Oi\n");
+	}
 	
-	for( int i = 0; i < 3; i++)
+	
+	// for loop, we can declare the iterator in the loop only if we compile with c99 , else we have to declare it before the loop.
+	// We can iterate on any condition you can think of (very useful in chained list)
+	for(int i = 0; i < 3; i++)
 	{
 		printf("You passed %d times in the loop\n", i+1);
 	}
 
 	int a = 0;
-	while( a<2 )
+	while( a<2 ) // While loop, pretty standard
 	{
 		printf("ravioli ravioli, give me the formuoli\n");
 		a++;
 	}
 	
 	int b = 0;
-	do
+	do // do..while loop, execute the content at least one time before evaluating the condition
 	{
 		printf("mom's spaghetti\n");
 		b++;

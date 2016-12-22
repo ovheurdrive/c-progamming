@@ -5,11 +5,11 @@
 // For file handling, there are I/O functions associated to any existing
 // basic I/O function with an 'f' in front of t :
 //
-// fprintf, fscanf, fgets, fgetc, fputs, fputc, fread, fwrite.
+// fprintf, fscanf, fgets, fgetc, fputs, fputc, fread, fwrite, putc, getc.
 //
 // There are also functions to handle the file itself and cursors inside of it :
 //
-// fopen, fclose, fseek, fflush...
+// fopen, fclose, fseek, fflush, rewind, setbuf, setvbuf, remove, rename, fsetpos, freopen, fgetpos, feof, ferror, clearerr.
 
 int file_open(const char* filename)
 {

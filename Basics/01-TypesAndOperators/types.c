@@ -1,24 +1,24 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-void y; // type "vide", peut contenir un peu tout ce que tu veux
-short z; // entier sur 16 bits
-int a; // entier sur 16 bits
-long b; // entier sur 32 bits (long == long int , abréviation pour raccourcir)
-uint64_t c; // uint64_t = unsigned long long int  ----> entier non signé sur 64 bits
+void y; // "void" type is used to store bare chunk of memory
+short z; // 16 bits integer
+int a; // 16 bits integer
+long b; // 32 bits integer (long == long int)
+uint64_t c; // uint64_t = unsigned long long int  ----> 64 bits
 
-// Définir un type :
-typedef long long long int kiki; // kiki est un type d'entier sur 128 bits
-kiki d; // a est une variable de type kiki
+// Define a type
+typedef long long long int kiki; // kiki is a 128 bits integer
+kiki d; // a is of type kiki
 
-// Type des nombres réels (dits à virgule flottante)
+// Real numbers
 float e;
 double f;
 long double g;
 
-// Chaine de charactère/Tableaux
+// String/Character/Array
 char h;
-char i[200];
+int i[200];
 
 // Structures
 struct j
@@ -27,11 +27,18 @@ struct j
 	char l;
 }
 
-// Enum : associer une chaine de charactère à un nombre de manière identifié
-enum m
+// Enum : Used to associate a string to a number
+enum
 {
-	N,
-	O
+	N, // Equivalent to write N=0,
+	O, // Equivalent to write O=1,
+	P // Equivalnt to write P=2
 };
 
-bool p; // variable booléenne
+bool q; // boolean variable
+
+// There exists other special types called container types :
+// - static : on a variable, it makes it defined globally. On a function it makes it non callable outside of the file where it's defined
+// - extern : makes a function global
+// - const : read only mode
+// - inline : used to define function in headers

@@ -1,19 +1,20 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-enum
+enum // We create enum tu make the code clearer
 {
     SUCCESS,
     ERROR
 };
 
-typedef struct
+typedef struct // We define a complex type containing an int, a float and a string.
 {
     int i;
     float f;
     char* s;
 }table_t;
 
+// Two functions to work on an object of table_t type
 int filling(table_t* table)
 {
     table->i = 2;
@@ -33,7 +34,10 @@ int empty(table_t* table)
 int main(int argc, char* argv[])
 {
     table_t* table = NULL;
-    table = calloc(sizeof(*table),1); // calloc = allocate mémory and set it to 0
+    table = calloc(sizeof(*table),1); // calloc = allocates memory and sets it to 0
+	if( table == NULL) // This code is here to handle memory allocation error.
+			return ERROR;
+
 	/*
 	 * Function to allocate memory :
 	 * ptr = malloc(size) : ptr is a pointer to an allocated chunk of size "size"
