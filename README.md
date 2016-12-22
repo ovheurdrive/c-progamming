@@ -18,10 +18,12 @@ The recommended order is the following
 * PointersAndMemory/PointerBasics
 * Basics/Preprocessor
 * Basics/StringsAndArrays
+* Basics/TypeCast
 * Basics/IO (Second Part)
 * PointersAndMemory/IntroductionToProcessVirtualMemory
 * PointersAndMemory/MemAlloc
 * PointersAndMemory/ChainedLists
+* PointersAndMemory/FunctionsPointers (In Progress)
 
 There are some exercises yoou can do to practice a specific part but i recommend to read all the courses before starting exercise 2.
 * Exercise 1 : Basics I/O, Functions, Multiple files, etc...
