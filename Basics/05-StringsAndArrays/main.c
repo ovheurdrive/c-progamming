@@ -4,7 +4,20 @@
 
 int main( int argc, char* argv[])
 {
-    /*
+	// To initialize an Array, you do the following :
+	//
+	// type variable[size] = { elem_1, elem_2, elem_3};
+	
+	int array[10];
+	int i;
+	for( i=0; i<10;i++)
+	{
+			array[i] = i*i; // the array containe the square of the 9 first integer
+	}
+	printf("The array 5th element is %d\n",array[4]); // as in most of programming languages, arrays start at 0.
+
+	
+    /*	Strings :
      *  First, we have to ask ourselves, what is a string?
      *  It's several characters following each other to create 
      *  a logical entity.
