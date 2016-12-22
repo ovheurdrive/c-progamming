@@ -28,7 +28,7 @@ There are some exercises yoou can do to practice a specific part but i recommend
 * Exercise 2 : String handling
 * Exercise 3 : Preprocessor 
 * Exercise 4 : Playin' with pointers
-* Exercise 5 : Memory Allocation (Not written yet)
+* Exercise 5 : Memory Allocation
 
 Requirements : 
 * A basic knowledge of the C language syntax
