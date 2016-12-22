@@ -23,15 +23,15 @@ The recommended order is the following
 * PointersAndMemory/IntroductionToProcessVirtualMemory
 * PointersAndMemory/MemAlloc
 * PointersAndMemory/ChainedLists
-* PointersAndMemory/FunctionsPointers (In Progress)
+* PointersAndMemory/FunctionsPointers
 
-There are some exercises yoou can do to practice a specific part but i recommend to read all the courses before starting exercise 2.
-* Exercise 1 : Basics I/O, Functions, Multiple files, etc...
-* Exercise 2 : String handling
-* Exercise 3 : Preprocessor 
-* Exercise 4 : Playin' with pointers
-* Exercise 5 : Memory Allocation
-* (Bonus) Exercise 6 : Modular programming in C
+There are some exercises you can do to practice a specific part.
+* Exercise 1 : Basics I/O, Functions, Multiple files, etc...    ( Recommended : Read to PointerBasics )
+* Exercise 2 : String handling                                  ( Recommended : Read To StringsAndArrays ) 
+* Exercise 3 : Preprocessor                                     ( Recommended : Read to TypeCast )
+* Exercise 4 : Playin' with pointers                            ( Recommended : Read to MemAlloc )
+* Exercise 5 : Memory Allocation                                ( Recommended : Read all the Chapters )
+* (Bonus) Exercise 6 : Modular programming in C                 ( Recommended : Successfully achieve all Exercises before this one )
 
 Requirements : 
 * A basic knowledge of the C language syntax
@@ -40,6 +40,6 @@ Requirements :
 * Debugger : OllyDBG , Immunity Debugger , GDB
 
 
-All those source codes aren't perfect (they leak, variables names are shit) but it's in the purpose of learning assisted orally by someone who knows what he is talking about.
+All those source codes aren't perfect (they may leak, variables names are shit) but it's in the purpose of learning assisted orally by someone who knows what he is talking about.
 Every file is subject to further improvements/alterations, but remember that it isn't perfect at all.
 If you're interested in contributing, you'll be welcomed cheerfully.
