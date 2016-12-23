@@ -21,3 +21,14 @@ int main( int argc, char* argv[])
 	return ERROR;
 }
 #endif
+
+
+/*
+ * There are number of commands usable in preprocessor.
+ * Here is an exhaustive list :
+ * - include : speaks for itself , allow to include external source code files
+ * - define : aims at defining constants or macros. to make multilines macros, you add '\' at the end of line, allow switch case.
+ * - ifdef/ifndef/if..else/elif..endif : to do conditioned compiling
+ * - error : error case to stop compiling
+ * - pragma : used to include compiler directives
+ */
