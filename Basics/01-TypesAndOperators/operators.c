@@ -38,4 +38,4 @@ sizeof // return the size of a variable
 ? : // if ... then ... else
 // Example :
 
-x < y ? return x : return y; // min between x and y 
+a = x < y ? x : y; // a contains the min between x and y 
