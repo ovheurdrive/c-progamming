@@ -4,8 +4,8 @@
 int main(int argc, char* argv[])
 {
 	int a;
-	scanf("%d", &a); // permet de prendre la valeur de a dans l'entrée standard (stdin) de manière formatée
-	printf("%d\n", a); // affiche la valeur de a dans la sortie standard (stdout) de manière formatée
+	scanf("%d", &a); // take a formated value for a in the standard input (stdin) 
+	printf("%d\n", a); // put a formated string with values in the standard output (stdout)
 	return 0;
 }
 
