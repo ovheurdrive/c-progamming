@@ -24,6 +24,7 @@ The recommended order is the following
 * PointersAndMemory/MemAlloc
 * PointersAndMemory/ChainedLists
 * PointersAndMemory/FunctionsPointers
+* PointersAndMemory/Multithreading
 
 There are some exercises you can do to practice a specific part.
 * Exercise 1 : Basics I/O, Functions, Multiple files, etc...    ( Recommended : Read to PointerBasics )
