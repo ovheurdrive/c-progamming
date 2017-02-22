@@ -53,5 +53,6 @@ int main(int argc, char* argv[])
     printf("%d, %f, %s\n", table->i, table->f, table->s); 
     empty(table);
     printf("%d, %f, %s\n", table->i, table->f, table->s);
+    free(table);
     return SUCCESS;
 }
