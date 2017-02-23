@@ -34,7 +34,7 @@ int main( int argc, char* argv[])
 				free(p_i);
 				p_i = p_tmp;
 			}
-            return ERROR;
+             return ERROR;
 		}
 		p_current = p_current->p_next;
 	}
