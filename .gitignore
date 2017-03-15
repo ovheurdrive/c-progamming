@@ -2,3 +2,13 @@
 *.pptx
 *.DS_STORE
 Exercises/Exercise2/Solution
+
+*.jpg
+*.aux
+*.log
+*.tex
+*.nav
+*.snm
+*.out
+*.gz
+*.toc
