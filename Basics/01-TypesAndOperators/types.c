@@ -9,7 +9,7 @@ uint64_t c; // uint64_t = unsigned long long int  ----> 64 bits
 
 // Define a type
 typedef long long long int kiki; // kiki is a 128 bits integer
-kiki d; // a is of type kiki
+kiki d; // d is of type kiki
 
 // Real numbers
 float e;

@@ -22,7 +22,6 @@ int main( int argc, char* argv[])
 }
 #endif
 
-
 /*
  * There are number of commands usable in preprocessor.
  * Here is an exhaustive list :
