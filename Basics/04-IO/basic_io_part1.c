@@ -11,8 +11,6 @@ int main(int argc, char* argv[])
 
 /*
  * There exists other standard basics I/O functions based on the same principle :
- * sprintf, snprintf, asprintf, vasprintf, vprintf, vsprinf, fprintf, vfprintf. 	
+ * sprintf, snprintf, asprintf, vasprintf, vprintf, vsprintf, fprintf, vfprintf. 	
  * sscanf, fscanf , getchar, gets, putchar, puts.
  */
-
-

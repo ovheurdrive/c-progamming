@@ -62,12 +62,13 @@ int main( int argc, char* argv[])
     scanf("%s",a);
     printf("a = %s and b = %s \n",a,b);
 
+
     // Let's see a list of common stiring functions :
 
 #ifdef HELLO
     int strlen( const char* str ) // return length of str
     char* strchr( const char* str, char car ) // search the first occurence of car in str | strrchr does the same for th last occurence
-    char* strstr( const char* haystack, const char* neeedle ) // search the first occurence of the string needle in the string haystack
+    char* strstr( const char* haystack, const char* needle ) // search the first occurence of the string needle in the string haystack
     char* strcat( char* destination, const char* source ) // concatenate source at the end of destination + '\0'
     char* strncat( char* desination, const char* source, size_t n ) // concatenate n bytes of source at the end of destination
     char* strcpy( char* destination, const char* source ) //copy source at the adress of destination + '\0'

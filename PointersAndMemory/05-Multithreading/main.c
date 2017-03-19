@@ -51,7 +51,7 @@ static spot_pos_t position_in_spot = { .x = SPOT_POS_X, .y = SPOT_POS_Y };
 /*
 Function to move in the spot when the case is empty
 */
-static void move_pos(void* p_data)
+static void* move_pos(void* p_data)
 {
     while( position_in_spot.x <= ((WIDTH)-(SPOT_POS_X)) && position_in_spot.y < ((HEIGTH)-(SPOT_POS_Y)))
     {
@@ -81,13 +81,13 @@ static void move_pos(void* p_data)
 }
 
 /* Workers function to retrieve ressources */
-static void get_ressource(void* p_data)
+static void* get_ressource(void* p_data)
 {
     pthread_setcancelstate(PTHREAD_CANCEL_ENABLE, NULL);
     int worker = (int)p_data;
     while(1)
     {
-        sleep((int)(30*rand()/(RAND_MAX+1)));
+        sleep((int)rand());
         if(ressource_spot.quantity == 0 )
         {
             pthread_cond_signal( &ressource_spot.ressource_cond );
@@ -139,7 +139,7 @@ int main()
     {
         pthread_join(ressource_spot.worker_thread[i], NULL);
     }
-    pthread_join(ressource_spot.ressource_thread);
+    pthread_join(ressource_spot.ressource_thread, NULL);
 
     return EXIT_SUCCESS;
 }
