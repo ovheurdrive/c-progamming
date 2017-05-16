@@ -88,6 +88,7 @@ static void* get_ressource(void* p_data)
     while(1)
     {
         sleep((int)rand());
+        pthread_mutex_lock( &ressource_spot.ressource_mutex );
         if(ressource_spot.quantity == 0 )
         {
             pthread_cond_signal( &ressource_spot.ressource_cond );
@@ -95,6 +96,8 @@ static void* get_ressource(void* p_data)
         }
         ressource_spot.quantity -= 100;
         printf("Worker %d got 50, remaining %d at (%d,%d) \n",worker,ressource_spot.quantity,position_in_spot.x,position_in_spot.y);
+        pthread_mutex_unlock( &ressource_spot.ressource_mutex );
+
     }
 }
 
