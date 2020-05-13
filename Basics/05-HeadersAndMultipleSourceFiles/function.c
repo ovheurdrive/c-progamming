@@ -1,4 +1,4 @@
-#include "function.h"
+#include<stdio.h>
 
 int Multiplication( int a, int b)
 {
